@@ -11,6 +11,9 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 countries = {
     'uk': 'https://www.gov.uk/government/collections/national-nature-reserves-in-england',
+    'us': 'https://www.nature.org/en-us/get-involved/how-to-help/volunteer/',
+    'france': 'https://benevole.com/en/missions?domain=environnement',
+    'africa': 'https://africanimpact.com/volunteer-projects/environmental-sustainability/',
 }
 
 
