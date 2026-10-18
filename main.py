@@ -28,6 +28,10 @@ async def hello(ctx):
       await ctx.send("Hi!")
 
 @bot.command()
+async def help(ctx):
+      await ctx.send("Hello! I can provide you with information about volunteering opportunities in different countries. Use the command !volunteer <country> to get started. For example, !volunteer uk or !volunteer us.")
+
+@bot.command()
 async def volunteer(ctx, country:str):
       if country in countries:
         await ctx.send(countries[country])
